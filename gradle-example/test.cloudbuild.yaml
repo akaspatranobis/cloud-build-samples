@@ -17,4 +17,6 @@ steps:
       - '-c'
       - |
         gcloud container images delete us-central1-docker.pkg.dev/${PROJECT_ID}/${_REPO_NAME}/hello-spring 
+options:
+  logging: CLOUD_LOGGING_ONLY          
       

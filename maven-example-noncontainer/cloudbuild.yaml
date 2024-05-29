@@ -30,3 +30,5 @@ artifacts:
     groupId: "com.example"
     version: "1.0.0"
 # [END cloudbuild_maven]
+options:
+  logging: CLOUD_LOGGING_ONLY  
